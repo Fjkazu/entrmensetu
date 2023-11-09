@@ -1,0 +1,79 @@
+
+.wrapper{
+  background-image: url("backimage.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* ********************* */
+/* ****** ヘッダー ******* */
+/* ********************* */
+.head_bar{
+  height: 80px;
+  width: auto;
+  background-color: #003366;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title{
+
+}
+
+.title-logo{
+  font-family: 'Dela Gothic One', sans-serif;
+  font-size: 40px;
+  color: white;
+  
+}
+
+
+
+.retry-btn  {
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	position: relative;
+	width: 100px;
+	margin: auto;
+	padding: 0.4rem 1rem;
+	font-weight: bold;
+	border-radius: 10px;
+	color: white;
+	border: 3px solid white;
+	box-shadow: 5px 5px white;
+	transition: 0.3s ease-in-out;
+}
+.retry-btn:active {
+	box-shadow: none;
+	transform: translate(5px, 5px);
+	color: white;
+}
+
+.retry-btn{
+
+}
+
+
+/* ********************* */
+/* ****** メイン ******* */
+/* ********************* */
+
+h1{
+  color :blueviolet;
+  font-family: "Nico Moji";
+}
+
+p{
+  font-family: "Sawarabi Gothic";
+}
+
+.test1{
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+/* ********************* */
+/* ****** フッター ******* */
+/* ********************* */
