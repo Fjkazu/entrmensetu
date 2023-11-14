@@ -170,15 +170,40 @@
 }
 
 
-/* ********************* */
-/* ****** 質問内容 ******* */
-/* ********************* */
+/* *********************************** */
+/* ****** 部分テンプレート質問内容 ******* */
+/* *********************************** */
 
+.question{
+  font-size: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 350px;
+  width: 70vw;
+  margin-top: 50px;
+  text-align: center;
+}
 
+.next{
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  width: 120px;
+  margin: auto;
+  padding: 1rem 4rem;
+  font-weight: bold;
+  border: 2px solid #FF9900;
+  background: #FF9900;
+  color: #fff;
+  border-radius: 5px;
+}
 
-
-
-
+.bottom-link{
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  text-decoration: none;
+  color: white;
+}
 
 
 
