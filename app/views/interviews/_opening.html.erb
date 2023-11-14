@@ -1,0 +1,25 @@
+      <div class="mensetu">面接開始</div>
+      <div class="setumei"><span class="ten">１０</span>の質問に答える</div>
+      <div class="setumei-block">
+        <div class="category">
+          <div class="category-head"> 何度も練習</div>
+          <div class="category-bottom">
+            <%= image_tag 'voice.png', class: 'icon' %>
+            <br>面接は暗記勝負ではありません。話し方は変わっても伝えたい思いは変わらぬよう何度も練習しましょう。</div>
+        </div>
+         <div class="category">
+          <div class="category-head"> PCで練習</div>
+          <div class="category-bottom">
+            <%= image_tag 'laptop.png', class: 'icon' %>
+            <br>WEB面接は画面の大きいPCがやり易いです。面接本番に近い環境で練習をしましょう。</div>
+        </div>
+        <div class="category">
+          <div class="category-head"> エンジニア向け</div>
+          <div class="category-bottom">
+            <%= image_tag 'program.png', class: 'icon' %>
+            <br>これからエンジニアを目指す方が質問され易い内容です。一般的な質問だけでなく技術的な質問にも答えられるよう練習しましょう。</div>
+        </div>  
+      </div>
+      <div class="start">
+        <%= link_to "さぁ始めよう", interviews_start_path, class: "start-btn" %>
+      </div>
