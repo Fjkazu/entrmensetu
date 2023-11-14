@@ -11,7 +11,7 @@ class InterviewsController < ApplicationController
   end
 
   def question
-    show_page
+    # show_page
   end
 
   def finish
