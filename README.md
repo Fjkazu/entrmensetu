@@ -1,24 +1,59 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## アプリケーション名
 
-Things you may want to cover:
+---
 
-* Ruby version
+「エントレ面接」
 
-* System dependencies
+“未経験エンジニア”のための、”反復練習”を行うことを目的とした、”面接”アプリ。
 
-* Configuration
+## 概要
 
-* Database creation
+---
 
-* Database initialization
+プログラミング未経験者向けの面接練習アプリ。
 
-* How to run the test suite
+「WEBアプリなのでPCを使って練習ができる」
 
-* Services (job queues, cache servers, search engines, etc.)
+「ユーザー登録なしでもできる」
 
-* Deployment instructions
+## URL
 
-* ...
+---
+
+[https://entrmensetu.onrender.com](https://entrmensetu.onrender.com/)
+
+## 利用方法
+
+---
+
+「さぁ始めよう」ボタンで開始。
+
+表示された文字に対して回答を行う。
+
+話し終えたら「次へ」ボタンを押す。
+
+「リセット」ボタンで最初に戻る。
+
+## アプリケーションを開発した背景
+
+---
+
+スマホアプリでの面接練習アプリは多いですが、PC用のものがなかったこと。
+
+さらにユーザー登録なしで手軽に使えるようにしたかったことです。
+
+質問内容も未経験エンジニア転職者向けのものが見当たらなかったため作成しました。
+
+## 工夫したポイント
+
+---
+
+ランダムに質問が表示される機能に注力しました。
+
+JavaScriptの有無を迷いましたが、あえて使わずデータベースからランダムで表示されるようにしています。
+
+追加実装としては音声による読み上げ機能や動画保存機能を予定しております。
+
+初のオリジナルアプリでまずは小さくても完成させることを意識しました。
